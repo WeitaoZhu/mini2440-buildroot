@@ -178,7 +178,7 @@ if !BR2_PRIMARY_SITE_ONLY
 
 config BR2_BACKUP_SITE
 	string "Backup download site"
-	default "http://sources.buildroot.net"
+	default "https://github.com/WeitaoZhu/mini2440_qemu/tree/master/tools"
 	help
 	  Backup site to download from. If this option is set then buildroot
 	  will fall back to download package sources from here if the
@@ -186,7 +186,7 @@ config BR2_BACKUP_SITE
 
 config BR2_KERNEL_MIRROR
 	string "Kernel.org mirror"
-	default "http://www.kernel.org/pub"
+	default "https://cdn.kernel.org/pub"
 	help
 	  kernel.org is mirrored on a number of servers around the world.
 	  The following allows you to select your preferred mirror.
