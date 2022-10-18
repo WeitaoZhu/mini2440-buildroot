@@ -74,9 +74,9 @@ BR2_HOST_DIR="$(BASE_DIR)/host"
 # Mirrors and Download locations
 #
 BR2_PRIMARY_SITE=""
-BR2_BACKUP_SITE="http://sources.buildroot.net/"
+BR2_BACKUP_SITE="https://github.com/WeitaoZhu/mini2440_qemu/tree/master/tools"
 BR2_SOURCEFORGE_MIRROR="kent"
-BR2_KERNEL_MIRROR="http://www.kernel.org/pub/"
+BR2_KERNEL_MIRROR="https://cdn.kernel.org/pub"
 BR2_GNU_MIRROR="http://ftp.gnu.org/pub/gnu"
 BR2_DEBIAN_MIRROR="http://ftp.debian.org"
 BR2_JLEVEL=2
